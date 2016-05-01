@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node build/build.js",
-    "start": "budo example/example.js"
+    "start": "budo example/example.js:bundle.js",
+    "gh-pages": "browserify example/example.js -o bundle.js"
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
