@@ -75,7 +75,7 @@ var yo = require('yo-yo')
 var csjs = require('csjs')
 
 var style = csjs\`
-.custom extends \${animation.${name}} {
+.custom extends \${animate.${name}} {
   animation-iteration-count: infinite;
 }
 \`
