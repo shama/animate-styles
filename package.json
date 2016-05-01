@@ -1,0 +1,28 @@
+{
+  "name": "animate-styles",
+  "version": "1.0.0",
+  "description": "Composable CSS Animations Built On animate.css",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "start": "budo example/example.js"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/shama/animate-styles",
+  "repository": "git@github.com:shama/animate-styles.git",
+  "keywords": [
+    "animation",
+    "css",
+    "csjs",
+    "yo-yo"
+  ],
+  "devDependencies": {
+    "animate.css": "^3.5.1",
+    "budo": "^8.2.2",
+    "yo-yo": "^1.2.0"
+  },
+  "dependencies": {
+    "csjs": "^1.0.1"
+  }
+}
